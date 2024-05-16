@@ -3,7 +3,7 @@ myHeading.textContent = "Hello world!";
 
 
 let c = document.querySelector("gameCanvas");
-c.widt
+
 let ctx = c.getContext("2d");
 
 var img = new Image();
