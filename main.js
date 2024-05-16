@@ -8,5 +8,7 @@ let ctx = c.getContext("2d");
 
 var img = new Image();
 
+//AAAAAAAA
+
 ctx.drawImage(img, 0, 0, 100, 100)
 img.src = '/assets/salvage/LightBeam.png';
