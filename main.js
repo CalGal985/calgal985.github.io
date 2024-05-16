@@ -1,6 +1,11 @@
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "Hello world!";
 
-let webBody = document.querySelector("body");
 
-webBody.src = '/assets/salvage/LightBeam.png';
+let c = document.querySelector("gameCanvas");
+let ctx = c.getContext("2d");
+
+var img = new Image();
+
+ctx.drawImage(img, 0, 0)
+img.src = '/assets/salvage/LightBeam.png';
