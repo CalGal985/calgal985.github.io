@@ -16,4 +16,4 @@ img.src = '/assets/salvage/LightBeam.png';
 ctx.moveTo(0, 0);
 ctx.lineTo(200, 100);
 ctx.stroke();
-console.log("WHYYY")
+console.log("WHYYYYYYYY")
